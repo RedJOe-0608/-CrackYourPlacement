@@ -6,7 +6,7 @@ public class ReverseWordsInAString {
 
         //for initial white spaces
         int i=0;
-        while(i < s.length()-1 && s.charAt(i) == ' ')
+        while(i < s.length() && s.charAt(i) == ' ')
         {
             i++;
         } 
