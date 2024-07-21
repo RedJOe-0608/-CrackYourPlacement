@@ -59,6 +59,7 @@ public class RemoveLinkedListElements {
         if(head == null)
             return;
 
+        //for the case [7,7,7,7]
         if(head.data == val)
         {
             while(head !=null && head.data == val)
